@@ -90,7 +90,7 @@ form {
 }
 
 textarea {
-	width: 50%;
+	width: 70%;
 }
 
 .navbar-brand {
@@ -101,6 +101,10 @@ textarea {
 @media (max-width: 767px) { 
     h1{
 		font-size:50px;
+	}
+	
+	textarea {
+		width: 90%;
 	}
 	
 	.navbar{
