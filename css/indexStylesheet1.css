@@ -39,7 +39,7 @@ h2 {
 #header img {
 	max-width: 100%;
 	height: auto;
-	margin-bottom: -40px;
+	margin-bottom: -30px;
 }
 
 #header p {
@@ -91,7 +91,6 @@ form {
 
 textarea {
 	width: 50%;
-	min-width: 300px;
 }
 
 .navbar-brand {
@@ -102,10 +101,6 @@ textarea {
 @media (max-width: 767px) { 
     h1{
 		font-size:50px;
-	}
-	
-	textarea {
-		width:50%;
 	}
 	
 	.navbar{
