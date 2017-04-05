@@ -94,13 +94,21 @@ textarea {
 	min-width: 300px;
 }
 
-@media (max-width: 767px) { 
-    .navbar{
-        display:none;
-    }
-}
-
 .navbar-brand {
   font-family: 'Sansita', sans-serif;
   font-size: 20px;
+}
+
+@media (max-width: 767px) { 
+    h1{
+		font-size:50px;
+	}
+	
+	textarea {
+		width:50%;
+	}
+	
+	.navbar{
+        display:none;
+    }
 }
