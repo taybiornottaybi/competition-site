@@ -1,0 +1,106 @@
+::-webkit-scrollbar { width: 15px; }
+::-webkit-scrollbar-track {
+      background-color: #373333;
+}
+::-webkit-scrollbar-thumb {
+      background-color: #484444; 
+}
+::-webkit-scrollbar-button {
+      background-color: #484444; 
+}
+
+body {
+	text-align: center;
+	background-image: url(http://i.imgur.com/3gjaSer.gif);
+	color: #fff;
+	font-family: Helvetica;
+	padding-bottom: 50px;
+}
+
+h1 {
+	font-family: 'Sansita', sans-serif;
+	font-size: 70px;
+	color: #fff;
+	line-height: 0.9;
+}
+
+h2 {
+	font-family: 'Sansita', sans-serif;
+	font-size: 40px;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+#header {
+	padding: 20px 0 30px 0;
+	background: #373333;
+}
+
+#header img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: -40px;
+}
+
+#header p {
+	font-family: monospace;
+	position: -50px 0 0 0;
+	line-height: 0.2;
+}
+
+#projects {
+	padding: 30px;
+	background: #484444;
+}
+
+#about {
+	padding: 30px;
+	background: #373333;
+}
+
+#about p {
+	padding: 10px;
+}
+
+#contact {
+	padding: 30px;
+	background: #484444;
+}
+
+.carousel h3 {
+	font-family: 'Sansita', sans-serif;
+	font-size: 30px;
+}
+
+.bird img {
+	max-width: 50%;
+	border: solid 5px #fff;
+	background: #262222;
+}
+
+input {
+	border: 0;
+	padding: 6px;
+	font-size: 14px;
+}
+
+form {
+	width: 100%;
+	padding: 0 0 30px 0;
+}
+
+textarea {
+	width: 50%;
+	min-width: 300px;
+}
+
+@media (max-width: 767px) { 
+    .navbar{
+        display:none;
+    }
+}
+
+.navbar-brand {
+  font-family: 'Sansita', sans-serif;
+  font-size: 20px;
+}
